@@ -1,0 +1,21 @@
+#__blaze-root {
+    display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#content {
+  flex: 1 0 auto;
+}
+
+.qiwee-color {
+	background-color: #3F5469;
+}
+
+.text-qiwee-color {
+	color: #CCFF60;
+}
+
+.nav-wrapper .fa {
+	line-height: 36px !important;
+ }

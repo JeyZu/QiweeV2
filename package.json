@@ -1,0 +1,12 @@
+{
+  "name": "Qiwee",
+  "private": true,
+  "scripts": {
+    "start": " METEOR_SETTINGS = $ (cat settings.json) node main.js " 
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "materialize-social": "^1.0.0",
+    "meteor-node-stubs": "~0.2.4"
+  }
+}
