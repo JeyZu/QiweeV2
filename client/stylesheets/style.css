@@ -1,0 +1,55 @@
+#__blaze-root {
+    display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#content {
+  flex: 1 0 auto;
+}
+
+.qiwee-color {
+	background-color: #3F5469;
+}
+
+.text-qiwee-color {
+	color: #CCFF60;
+}
+
+.nav-wrapper .twitch .fa {
+	line-height: 36px !important;
+}
+
+.notifications-badge {
+    position: relative;    
+    right: 18px;
+    top: -10px;
+    color: #ffffff;
+    margin: 0 -.8em;
+    border-radius: 50%;
+    padding: 3px 5px;
+}
+
+.logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.logo>span {
+    vertical-align: middle
+}
+
+.avatar {
+	border: 1px solid #ddd;
+	background: #fff;
+	border-radius: 50%;
+	display: inline-block;
+	overflow: hidden;
+	width: 40px;
+	height: 40px;
+	line-height: 50px;
+	text-align: center;
+	background-size: cover;
+	-o-object-fit: cover;
+	object-fit: cover;
+}

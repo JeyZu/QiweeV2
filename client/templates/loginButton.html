@@ -1,0 +1,20 @@
+<template name="loginButton">
+	{{#if currentUser}}
+		<li></li>
+	{{ else}}
+		<!-- <li>
+			<a class="btn waves-effect waves-light twitch purple"><i class="fa fa-twitch left"></i> Se connecter</a>
+		</li> -->
+		<li>
+			<a class="waves-effect waves-block waves-light" href="#!" data-activates="dropdown1">
+				<i class="material-icons left">notifications</i>
+				<small class="notifications-badge">4</small>
+			</a>
+		</li>
+		<li>
+			<a class="logo"><span class="avatar" style="background-image: url(images/profile.jpg);"></span></a>						
+		</li>
+
+	{{ /if}}
+
+</template>

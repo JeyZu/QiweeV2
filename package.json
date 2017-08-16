@@ -2,7 +2,7 @@
   "name": "Qiwee",
   "private": true,
   "scripts": {
-    "start": " METEOR_SETTINGS = $ (cat settings.json) node main.js " 
+    "start": "meteor run" 
   },
   "dependencies": {
     "babel-runtime": "^6.23.0",
